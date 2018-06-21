@@ -1,0 +1,50 @@
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+query"*"
+flash("* id:'btSkip'")
+touch("* id:'btSkip'")
+query"*"
+touch("* id:'textview_new_version_no_button'")
+query"*"
+exit
+start_test_server_in_background
+query"*"
+exit
+start_test_server_in_background
+flash("com.android.internal.policy.DecorView")
+flash("com.android.internal.policy.DecorView")
+flash("android.widget.LinearLayout")
+flash("android.widget.FrameLayout")
+flash("android.widget.ImageView")
+exit
+exit
+start_test_server_in_background
+query"*"
+exit
+query"*"
+query"*"
+query"*"
+ query"*"
+query"*"
+query"*"
+query"*"
+exit
+start_test_server_in_background
+query"*"
+flash("* id:'btOk'")
+query"*"
+exit
+exit
+start_test_server_in_background
+query"*"
+query"*"
+exit
+start_test_server_in_background
+query"*"
+exit
+query"*"
+exit
