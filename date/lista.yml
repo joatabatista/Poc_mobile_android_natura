@@ -5,6 +5,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Thiago Cezar"
   cpf: "57462795108"
@@ -12,6 +13,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Jose Jesus"
   cpf: "04077664802"
@@ -19,6 +21,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Jefferson Santos"
   cpf: "72706551704"
@@ -26,6 +29,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Giliarde Souza"
   cpf: "85111404686"
@@ -33,6 +37,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Ronaldo Dias"
   cpf: "52282160738"
@@ -40,6 +45,7 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"
 -
   nome: "Messi Santos"
   cpf: "59879311850"
@@ -47,3 +53,4 @@
   cep: "06462140"
   nascimento: "23/03/1988"
   telefone: "(11)4552-8114"
+  msg_massa: "CPF informado já está sendo utilizado. Por favor, solicite uma nova senha ou entre em contato com nosso atendimento para recuperar o seu acesso"

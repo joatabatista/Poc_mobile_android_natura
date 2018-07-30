@@ -17,16 +17,9 @@ Quando(/^faço meu cadastro$/) do
   @nascimento = $lista_cadastro[posicao]['nascimento']
   @telefone = $lista_cadastro[posicao]['telefone']
   page(PreencherCadastro).realizar_cadastro(@nome, @cpf, @email, @cep, @nascimento, @telefone)
-  binding.pry
-end
+  end
 
 Então(/^visualizo meu cadastro com sucesso$/) do
   page(PreencherCadastro).consultar_cadastrado(@nome)
   puts "Seja bem Vindo: #{@nome}"
-end
-
-#CPF JA CADASTRADO
-Então(/^visualizo cpf ja cadastrado {string} $/) do |mensagem|
-  #expect(actual).to be(expected)
-  expect(page(PreencherCadastro).validacao_cpf).to eq(mensagem)
 end

@@ -7,3 +7,4 @@ gem "pry"
 gem 'cpf_faker'
 gem 'faker'
 gem 'parallel_calabash'
+gem "rspec"

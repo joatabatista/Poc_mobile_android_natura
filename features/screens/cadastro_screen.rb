@@ -19,10 +19,12 @@ class PreencherCadastro < Calabash::ABase
   end
 
   def passar_para_lad0
+    sleep 5
     page(Geral).down_view(2)
     #touch("android.widget.ImageButton index:0", :timeout => 20)
   end
 
+  #SERVE PARA ARRASTA DA ESQUENTA PARA DIREITA
   def esq_dir
     page(Geral).scroll_delado(3)
   end
@@ -31,6 +33,24 @@ class PreencherCadastro < Calabash::ABase
   def fazer_cadastro
     page(Geral).validar_elemento('textView10')
 		touch("* id:'textView10'")
+  end
+
+  def preencher_senhaboleto(senha)
+    page(Geral).validar_elemento('edPassword')
+		touch("* id:'edPassword'")
+    keyboard_enter_text ENV['SENHA']#ENV EU COLOCO A SENHA NA HORA DE EXECUTA O CODIGO EX:LINHA DE COMANDO E SENHA=123456
+    hide_soft_keyboard
+  end
+  #REALIZAR COMPRA VIA BOLETO (METODO FOI FEITO AQUI POIS JA TINHA OS PASSOS)
+  def realizar_compraboleto(email)
+    self.pular_tutorial
+    self.pular_atualizacao
+    sleep 5
+    self.esq_dir
+    self.fazer_cadastro
+    self.preencher_email(email)
+    self.preencher_senhaboleto(ENV['SENHA'])
+    self.entrar_btn
   end
 
 #REALIZAR CADASTRO
@@ -143,8 +163,12 @@ class PreencherCadastro < Calabash::ABase
   end
 
 #CPF JÁ CADASTRADO
-  def validacao_cpf
-      page(Geral).validar_elemento
+  def campo_msn
+    mensagem = "* id:'txTitle'"
+  end
+
+  def valida_cpf(msgm)
+      assert_text(msgm)
   end
 
 end

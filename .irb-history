@@ -1,50 +1,41 @@
+flash("* id:'icLogo'")
+flash("* 'android.support.v7.widget.AppCompatImageButton'")
+flash("'android.support.v7.widget.AppCompatImageButton'")
+flash("'android.support.v7.widget.AppCompatImageButton'")
+flash("* 'android.support.v7.widget.AppCompatImageButton'")
+flash("* id:'app_bar_search'")
 exit
-start_test_server_in_background
-exit
-start_test_server_in_background
-exit
-start_test_server_in_background
-query"*"
-flash("* id:'btSkip'")
-touch("* id:'btSkip'")
-query"*"
-touch("* id:'textview_new_version_no_button'")
-query"*"
-exit
+reinstall_apps
 start_test_server_in_background
 query"*"
+query"*"
+query"*"
+flash("* text:'Perfumaria'")
+flash("* text:'Perfumaria'")
+touch("* text:'Perfumaria'")
 exit
-start_test_server_in_background
-flash("com.android.internal.policy.DecorView")
-flash("com.android.internal.policy.DecorView")
-flash("android.widget.LinearLayout")
-flash("android.widget.FrameLayout")
-flash("android.widget.ImageView")
-exit
-exit
-start_test_server_in_background
-query"*"
-exit
-query"*"
-query"*"
-query"*"
- query"*"
-query"*"
-query"*"
-query"*"
-exit
-start_test_server_in_background
 query"*"
 flash("* id:'btOk'")
-query"*"
 exit
-exit
-start_test_server_in_background
-query"*"
-query"*"
-exit
+reinstall_apps
 start_test_server_in_background
 query"*"
 exit
+reinstall_apps
+start_test_server_in_background
 query"*"
+flash("* id:'btNext'")
+flash("* id:'btNext'")
+touch("* id:'btNext'")
+touch("* text:'PULAR'")
+touch("* text:'Pular'")
+query"*"
+query"*"
+query"*"
+flash("* id:'edNomeCompleto'")
 exit
+query"*"
+flash("* text:'Boleto'")
+touch("* text:'Boleto')
+touch("* text:'Boleto')
+flash("* text:'Boleto'")
