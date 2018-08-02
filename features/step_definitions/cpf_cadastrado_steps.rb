@@ -19,9 +19,7 @@ Quando(/^realizo meu cadastro com cpf ja cadastrado$/) do
 end
 
 Então(/^vejo mensagem "([^"]*)" do cpf já cadastrado$/) do |msg_massa|
-  #binding.pry
-  #assert_selector("#txTitle", text: $lista_mensagem["msg_massa"], wait:10, visible:true)
-   msg_massa = $lista_mensagem['msg']
-   @campo_msn = page(PreencherCadastro).campo_msn
-   expect(@campo_msn).to eq msg_massa
+  msg_massa = $lista_mensagem['msg']
+  @campo_msn = page(PreencherCadastro).campo_msn
+  expect(@campo_msn).to eq(msg_massa)
 end

@@ -17,5 +17,8 @@ Quando(/^adiciono todos os intens de cadastros$/) do
 end
 
 Então(/^vializo mensagem "([^"]*)"$/) do |msg_boleto|
-expect(page).to have_content msg_boleto
+ @mensagem = page(CompraBoleto).validar_comprar
+ expect(@mensagem).to eq(msg_boleto)
+ puts "msg_boleto"
+ puts @mensagem
 end

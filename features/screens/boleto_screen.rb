@@ -137,9 +137,10 @@ class CompraBoleto < Calabash::ABase
     touch("* id:'btFinishBuy'")
   end
 
+#VALIDAÇÃO DA COMPRA
   def validar_comprar
-    page(Geral).validar_texto('Boleto')
-    touch("* text:'Compra realizada com sucesso'")
+    page(Geral).validar_elemento('txTitle')
+    @mensagem = query("* text:'Compra realizada com sucesso'",:text).first
   end
 
 end
