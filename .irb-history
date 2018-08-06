@@ -1,26 +1,3 @@
-flash("* id:'icLogo'")
-flash("* 'android.support.v7.widget.AppCompatImageButton'")
-flash("'android.support.v7.widget.AppCompatImageButton'")
-flash("'android.support.v7.widget.AppCompatImageButton'")
-flash("* 'android.support.v7.widget.AppCompatImageButton'")
-flash("* id:'app_bar_search'")
-exit
-reinstall_apps
-start_test_server_in_background
-query"*"
-query"*"
-query"*"
-flash("* text:'Perfumaria'")
-flash("* text:'Perfumaria'")
-touch("* text:'Perfumaria'")
-exit
-query"*"
-flash("* id:'btOk'")
-exit
-reinstall_apps
-start_test_server_in_background
-query"*"
-exit
 reinstall_apps
 start_test_server_in_background
 query"*"
@@ -39,3 +16,35 @@ flash("* text:'Boleto'")
 touch("* text:'Boleto')
 touch("* text:'Boleto')
 flash("* text:'Boleto'")
+Query"*"
+query"*"
+exit
+reinstall_apps
+exit
+reinstall_apps
+exit
+exit
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+exit
+query"*"
+query"*"
+exit
+query"*"
+start_test_server_in_background
+clear
+query"*"
+exit
+querY"*"
+query"*"
+exit
+start_test_server_in_background
+query"*"
+query"*"
+query"*"
+ flash("* id:'relativeLayout6'")
+ flash("* text:'Maquiagem'")
+ touch("* text:'Maquiagem'")
+ touch("* text:'Maquiagem'")
+exit
