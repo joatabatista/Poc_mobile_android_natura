@@ -40,6 +40,12 @@ class Geral < Calabash::ABase
 	   wait_for_elements_exist(["* {text CONTAINS '#{params}'}"], :timeout => 20)
 	end
 
+  def aguardar(quantity)
+    quantity.times do
+      sleep 1
+    end    
+  end
+
 	def validar_class(*args)
 	  	args.each do |class_2|
 	    wait_for_elements_exist(["* class:'#{class_2}'"], :timeout => 20)

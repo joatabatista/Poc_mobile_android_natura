@@ -2,6 +2,7 @@
 #CADASTRO NO APP
 Dado(/^que eu esteja na home do app$/) do
   page(PreencherCadastro).pular_etapas
+  binding.pry
 end
 
 Quando(/^eu clico no menu do app$/) do

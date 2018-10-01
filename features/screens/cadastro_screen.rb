@@ -19,7 +19,7 @@ class PreencherCadastro < Calabash::ABase
   end
 
   def passar_para_lad0
-    sleep 5
+    page(Geral).aguardar(5)
     page(Geral).down_view(2)
     #touch("android.widget.ImageButton index:0", :timeout => 20)
   end
